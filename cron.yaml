@@ -1,0 +1,4 @@
+cron:
+#- description: setting stuff to zero
+#  url: /setzero
+#  schedule: every 1 minutes from 00:01 to 23:31

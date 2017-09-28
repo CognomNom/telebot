@@ -1,4 +1,4 @@
-application: YOUR_APP_ID_HERE
+application: bot-telegram-123
 version: 1
 runtime: python27
 api_version: 1
@@ -14,6 +14,9 @@ handlers:
   script: main.app
 
 - url: .*
+  script: main.app
+
+- url: /setzero
   script: main.app
 
 libraries:
